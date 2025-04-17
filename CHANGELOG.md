@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/DglsAlmeida/pizzashop/compare/v1.0.0...v1.0.1) (2025-04-17)
+
+
+### Bug Fixes
+
+* button background ([95a2473](https://github.com/DglsAlmeida/pizzashop/commit/95a2473262fefe40d4c34949acabdbc65088f094))
+
 # 1.0.0 (2025-04-17)
 
 
