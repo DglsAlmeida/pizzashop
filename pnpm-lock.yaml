@@ -11,6 +11,7 @@ specifiers:
   '@semantic-release/changelog': ^6.0.3
   '@semantic-release/git': ^10.0.1
   '@semantic-release/github': ^11.0.1
+  '@semantic-release/npm': ^12.0.1
   '@tailwindcss/vite': ^4.0.16
   '@types/node': ^22.13.13
   '@types/react': ^19.0.10
@@ -70,6 +71,7 @@ devDependencies:
   '@semantic-release/changelog': 6.0.3_semantic-release@24.2.3
   '@semantic-release/git': 10.0.1_semantic-release@24.2.3
   '@semantic-release/github': 11.0.1_semantic-release@24.2.3
+  '@semantic-release/npm': 12.0.1_semantic-release@24.2.3
   '@types/node': 22.14.1
   '@types/react': 19.1.2
   '@types/react-dom': 19.1.2_@types+react@19.1.2
