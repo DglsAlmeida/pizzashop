@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/DglsAlmeida/pizzashop/compare/v1.0.1...v1.1.0) (2025-04-17)
+
+
+### Features
+
+* add semantic release npm to update package json automatically ([ca20c32](https://github.com/DglsAlmeida/pizzashop/commit/ca20c32306338fa1d24aff9247a3a6896ee4096a))
+
 ## [1.0.1](https://github.com/DglsAlmeida/pizzashop/compare/v1.0.0...v1.0.1) (2025-04-17)
 
 
