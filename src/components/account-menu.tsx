@@ -36,7 +36,11 @@ export const AccountMenu = () => {
 
         <DropdownMenuItem className="text-rose-500 dark:text-rose-400">
           <LogOut className="mr-2 h-4 w-4" />
-          <span>Log out</span>
+          <span>Log out
+        <DropdownMenuItem>
+          <Building className="mr-2 h-4 w-4" />
+          <span>Store Profile</span>
+        </DropdownMenuItem></span>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

@@ -5,6 +5,8 @@ import globals from "globals";
 import tseslint from "typescript-eslint";
 
 export default defineConfig([
+  tseslint.configs.recommended,
+  pluginReact.configs.flat.recommended,
   { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
@@ -13,8 +15,9 @@ export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
     plugins: { js },
-    extends: ["js/recommended", "@rocketseat/eslint-config/react"],
+    extends: ["js/recommended"],
+    rules: {
+      "react/react-in-jsx-scope": "off",
+    },
   },
-  tseslint.configs.recommended,
-  pluginReact.configs.flat.recommended,
 ]);
