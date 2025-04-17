@@ -7,6 +7,8 @@ export const NavLink = (props: NavLinkProps) => {
 
   const activePath = pathname === props.to;
 
+  console.log("test semantic release")
+
   return (
     <Link
       data-current={activePath}
